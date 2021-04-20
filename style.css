@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+button{
+    margin-left: 45%;
+}
+
+img{
+    margin-left: 25%;
+}
+
+/* landscape for 320px x 488px screen*/
+@media only screen and (max-width:488px){
+    img{
+    width: 40%;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    img{
+    width: 50%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    img{
+    width: 60%;
+    }
+}
